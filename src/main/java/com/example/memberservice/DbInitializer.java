@@ -22,6 +22,7 @@ public class DbInitializer implements CommandLineRunner {
          */
         Member member1 = new Member("Andy Parker", "parker@yahoo.com");
         Member member2 = new Member("Daisy Eves", "d.eves@gmail.com");
+        Member member3 = new Member("Suzy Adams", "suzy@gmail.com");
 
         this.memberRepository.save(member1);
         this.memberRepository.save(member2);
